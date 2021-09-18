@@ -3,7 +3,7 @@
 
 body{
 
-background-color: #f7f7f7;
+background-color: #f31313;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -13,3 +13,8 @@ margin: 0;
 font-family: 'Lato', 'sans-serif';
 
 }
+
+.container {
+    margin: 30px auto;
+    width: 350px;
+  }
