@@ -18,3 +18,9 @@ font-family: 'Lato', 'sans-serif';
     margin: 30px auto;
     width: 350px;
   }
+
+  h1 {
+    letter-spacing: 1px;
+    margin: 0;
+    color: #2e75cc;
+  }
