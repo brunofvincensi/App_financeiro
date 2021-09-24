@@ -3,10 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
-
-    
-    
+    <link rel="stylesheet" href="style.css" />
     <title>Controle de despesas</title>
   </head>
   <body>
@@ -31,15 +28,13 @@
 
       <h3>Transações</h3>
       
-      <ul id="transactions" class="transactions">
-               
-      </ul>
+      <ul id="transactions" class="transactions"></ul>
 
       <h3>Adicionar transação</h3>
       
       <form id="form">
         <div class="form-control">
-          <label for="text">Nome</label>
+          <label for="text" class="name">Nome</label>
           <input autofocus type="text" id="text" placeholder="Nome da transação" />
         </div>
 
@@ -53,8 +48,7 @@
         <button class="btn">Adicionar</button>
       </form>
     </div>
+
     <script src="script.js"></script>
   </body>
-
- 
 </html>
